@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sprout Siege</title>
+<style>
+  html,body{margin:0;height:100%;background:#1b2a14;overflow:hidden;}
+  body{display:flex;align-items:center;justify-content:center;font-family:"Trebuchet MS",Verdana,sans-serif;}
+  canvas{display:block;image-rendering:auto;touch-action:none;user-select:none;-webkit-user-select:none;}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script src="js/core.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/plants.js"></script>
+<script src="js/enemies.js"></script>
+<script src="js/levels.js"></script>
+<script src="js/art.js"></script>
+<script src="js/art_enemies.js"></script>
+<script src="js/battle.js"></script>
+<script src="js/battle_plants.js"></script>
+<script src="js/battle_enemies.js"></script>
+<script src="js/battle_draw.js"></script>
+<script src="js/modes.js"></script>
+<script src="js/menus.js"></script>
+<script src="js/zen.js"></script>
+<script src="js/main.js"></script>
+<script>if(location.search.indexOf('dev')>=0){var s=document.createElement('script');s.src='js/devtest.js';document.body.appendChild(s);}</script>
+</body>
+</html>
